@@ -1,13 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>2 Words 1 Meme</title>
-  <script src="2words1meme.js"></script>
-</head>
-<body>
+<html>
 
+<head>
+	<meta charset="utf-8">
+	<title>2WORDS1MEME</title>
+	<link rel="shortcut icon" type="image/x-icon" href="style/favicon.ico" />
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="2words1meme.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<br>
+		<center><img src="style/logo.png"/></center>
+		<div class="input-group input-group-lg">
+			<span class="input-group-addon"></span>
+			<input type="text" class="form-control" id="firstName" placeholder="First name" aria-describedby="sizing-addon1" name="firstName">
+		</div>
+		<br>
+		<div class="input-group input-group-lg">
+			<span class="input-group-addon"></span>
+			<input type="text" class="form-control" id="lastName" placeholder="Last name" aria-describedby="sizing-addon1" name="lastName">
+		</div>
+		<br>
+		<center><button type="button" class="btn btn-default" id="generateMeme" name="submit">generate meme</button></center>
+		<br>
+		<hr>
+		<center><p id="output">generate your meme first</p></center>
+		<hr>
+
+		<div class="alert alert-success" role="alert">
+			<center><p>This is a late night project of 2 desperate students that just did not want to study for their upcoming finals</p></center>
+		</div>
+		<p>Copyright © 2017 Julian Palmanshofer and Juri Schreib</p>
+
+	</div>
 </body>
+
 </html>
